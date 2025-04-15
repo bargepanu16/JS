@@ -13,6 +13,10 @@ null standaloan value
 undefined->
 symbol->unique
 */
+
+//NULL is object
 let age=23;
 let isLoogedin=true;
 let state;
+console.log(typeof null);//Object
+console.log(typeof undefined);//undefined
