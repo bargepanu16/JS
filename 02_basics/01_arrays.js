@@ -5,43 +5,39 @@
 //Array
 
 let myArray=[0,1,2,3,4,5];
-// let Myname=["Pranav","Sayli"];
+let Myname=["Pranav","Sayli"];
 
-// let myArray2=new Array(1,2,3,4,6,8)
-// console.log(myArray[0]);
+let myArray2=new Array(1,2,3,4,6,8)
+console.log(myArray[0]);
 
-// //methodes in array
-// console.log(`length of array is:- ${myArray.length}`);
+//methodes in array
+console.log(`length of array is:- ${myArray.length}`);
 
-// myArray.push(6);
-// console.log(myArray);
-// console.log(`length of array after push is:- ${myArray.length}`);
+ myArray.push(6);
+console.log(myArray);
+console.log(`length of array after push is:- ${myArray.length}`);
 
-// myArray.pop();
-// myArray.pop();
-// console.log(`length of array after pop is:- ${myArray.length}`);
+myArray.pop();
+myArray.pop();
+console.log(`length of array after pop is:- ${myArray.length}`);
 
-// console.log(myArray);
+console.log(myArray);
+myArray.unshift(9);
+console.log(myArray);
 
-// myArray.unshift(9);
-// console.log(myArray);
-
-// myArray.shift();
-
-
-// console.log(myArray.includes(9));
-// console.log(myArray);
-
-// const newarr=myArray.join();//Adds all the elements of an array into a string, separated by the specified separator string.
+myArray.shift();
 
 
-// console.log(newarr);
+console.log(myArray.includes(9));
+console.log(myArray);
+
+const newarr=myArray.join();//Adds all the elements of an array into a string, separated by the specified separator string.
+
+
+console.log(newarr);
 
 
 //slice ,splice
-
-// console.log(myArray.slice(1,3));
-// console.log(myArray.splice());
 
 let arr = [1, 2, 3, 4, 5];
 console.log(`Original array is :- ${arr}`)
