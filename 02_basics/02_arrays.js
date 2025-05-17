@@ -22,4 +22,11 @@ console.log(real_array);
 
 console.log(Array.isArray("Pranali"));
 console.log(Array.from("Pranali"));
-console.log(Array.from({name:"Pranali"}));//interesting case OUTPUT=> [] here we have to specify that by using key or value which we are using to make array
+console.log(Array.from({name:"Pranali"}));//interesting case OUTPUT=> [] here we have to specify that by using key or value which we are using to make 
+
+let score1=100;
+let score2=200;
+let score3=300;
+let score4=400;
+
+console.log(Array.of(score1,score2,score3,score4));
