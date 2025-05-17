@@ -20,7 +20,20 @@ console.log(typeof [mysym]);
 console.log(firstObj[mysym]);
 
 firstObj.email="chatgpt@123.com";
-Object.freeze(firstObj);
+//Object.freeze(firstObj);
 console.log(firstObj);
 
+
+firstObj.greeting=function(){
+    console.log("Hello js user");
+}
+
+//console.log(firstObj.greeting);//[Function (anonymous)]
+console.log(firstObj.greeting());//Hello js user
+firstObj.greetingtwo=function(){
+    console.log(`Hello js user ,${this.name}`);
+}
+console.log(firstObj.greetingtwo())
+
+console.log(firstObj);
 
