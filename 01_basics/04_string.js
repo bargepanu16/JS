@@ -12,11 +12,18 @@ console.log(gameName.__proto__);
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('a'));
 console.log(gameName.toUpperCase());
+console.log(gameName);
 
-const newString=gameName.slice(-7,4);
+
+
+const newString=gameName.slice(-5,4);
 console.log(newString);
 
+
+const st="123456789";
+newst=st.slice(-9,6);
+console.log(newst);
 let url="hello.20%.com";
-console.log(url.replace('20%','-'));
+//console.log(url.replace('20%','-'));
 
 
